@@ -1,92 +1,120 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Johndaleverth Pastorfide Echanova",
+  title: "Computer Engineer",
+  description: "Portfolio website of Johndaleverth Pastorfide Echanova",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "mailto:@johndaleverthpechanova@gmail.com",
+    linkedin: "https://linkedin.com/in/johndaleverth",
+    twitter: "https://x.com/dalerivatives",
+    github: "https://github.com/dalerivatives",
   },
+  
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  
+  "I am a multidisciplinary engineer with expertise in both software and hardware development, passionate about building smart systems that bridge the digital and physical worlds. My skill set spans web technologies such as HTML, CSS, JavaScript, and MySQL, as well as programming languages including Python, C, and C++. On the hardware side, I specialize in embedded systems, robotics, and IoT development, with hands-on experience using Arduino, ESP32, and Raspberry Pi platforms. I have a strong background in circuit design, sensors and actuators, motion control, and electronics, enabling me to design and integrate systems from the ground up. Beyond development, I am skilled in system integration, hardware and software debugging, reverse engineering, and technical repairs, ensuring that the solutions I build are both functional and reliable. I also explore image processing and automation, applying innovative approaches to robotics and machine systems. Driven by curiosity and problem-solving, I enjoy working on projects that combine creativity, engineering, and technology to deliver impactful solutions.",
+
+  skills: [
+  // Web Development
+  "HTML", "CSS", "JavaScript", "MySQL",
+
+  // Programming & Software
+  "Python", "C", "C++", "Reverse Engineering", "System Integration",
+  "Hardware & Software Debugging", "Android Studio",
+
+  // Hardware & Embedded Systems
+  "Arduino", "ESP32", "Raspberry Pi", "Embedded Systems",
+  "Sensors & Actuators", "Motion Control", "Image Processing",
+
+  // Robotics & Electronics
+  "Robotics", "Machines & Robotics", "Circuit Design", "Electronics Design",
+  "IoT Development", "Tech Repairs"
+],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Musicalizer",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A music lyrics Visualizer",
+      link: "https://dalerivatives.github.io/musicalizer/",
+      skills: ["Java", "Swing", "Replit"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Shortest Job First Priority Simulator",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A non-preemptive SJF priority simulation that initiates queue order",
+      link: "https://dalerivatives.github.io/sjf-priority-simulator/",
+      skills: ["HTML", "CSS", "JS"],
     },
     {
-      name: "ExtensionKit",
+      name: "Malware by Dalerivatives",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An executable file that can distrupt users device, to test it please use a virtual environment!",
+      link: "https://drive.google.com/file/d/1eu2g3vHXxRVIi2hVCBaYeXM10FAIm9sX/view?usp=sharing",
+      skills: ["C#", "Java", "Python"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
-};
+experience: [
+  {
+    company: "Dalesassemble",
+    title: "Cellphone and Laptop Technician",
+    dateRange: "2024 - Present",
+    bullets: [
+      "Repaired 100+ mobile phones",
+      "Repaired 20+ laptops",
+      "Resolved software issues including forgotten passwords, Windows/Office license activation, and more",
+      "Handled hardware repairs such as LCDs, covers, batteries, fuses, power buttons, volume buttons, speakers, and motherboards"
+    ]
+  },
+  {
+    company: "Capstone Projects",
+    title: "Consultant",
+    dateRange: "2024 - Present",
+    bullets: [
+      "Integrated software and hardware solutions",
+      "Conducted online tutorials",
+      "Collaborated effectively with a team"
+    ]
+  },
+  {
+    company: "Trevelade Company",
+    title: "Full Stack Developer",
+    dateRange: "Aug 2018 - May 2020",
+    bullets: [
+      "Developed and maintained a Pay and Access website (ongoing project)"
+    ]
+  }
+],
+education: [
+  {
+    school: "Marinduque State University",
+    degree: "Bachelor of Science in Computer Engineering",
+    dateRange: "2022 - Present",
+    achievements: [
+      "Consistent mid-level academic standing",
+      "Recognized as the Top 1 team in the Computer Engineering discipline activity focused on prototype development among our batch"
+    ]
+  },
+  {
+    school: "Makapuyat National High School",
+    degree: "Senior High School Graduate (completed Grade 7–12)",
+    dateRange: "2017 - 2022",
+    achievements: [
+      "Consistent Honor Student (A.Y. 2017 - 2018)",
+      "With High Honors (A.Y. 2021 - 2022)",
+      "Champion, District Science and Technology Fair 2022 – Project Robotrash",
+      "3rd Place, Division Science and Technology Fair 2022 – Project Robotrash",
+      "Best in Capstone Project"
+    ]
+  },
+  {
+    school: "Escuela De Gratia Plena Incorporated",
+    degree: "Elementary Graduate",
+    dateRange: "2007 - 2016",
+    achievements: [
+      "Consistent Achiever",
+      "Top 5 student (A.Y. 2012 - 2016)"
+    ]
+  }
+]
+}
